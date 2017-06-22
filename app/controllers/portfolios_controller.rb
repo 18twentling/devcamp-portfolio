@@ -7,7 +7,7 @@ class PortfoliosController < ApplicationController
     @portfolio_items = Portfolio.new
   end
   
-def create
+  def create
     @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body))
 
     respond_to do |format|
@@ -19,9 +19,9 @@ def create
     end
   end
   
-  def edit
+def edit
   @portfolio_item = Portfolio.find(params[:id])
-  end
+end
 
  def update
    @portfolio_item = Portfolio.find(params[:id])
@@ -33,11 +33,11 @@ def create
         format.html { render :edit }
       end
     end
-  end
+ end
   
-  def show
+def show
   @portfolio_item = Portfolio.find(params[:id])
-  end
+end
 
 end
 
