@@ -59,3 +59,4 @@ gem 'friendly_id', '~> 5.1.0' # Note: You MUST use 5.0.0 or greater for Rails 4.
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 gem 'wentling_view_tool', '~> 0.1.0' 
+gem 'petergate', '~> 1.7', '>= 1.7.5'
