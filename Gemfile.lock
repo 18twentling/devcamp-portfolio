@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/18twentling/devcamp_view_tool
+  revision: 9d6b0facc90aa2d1394ac97a48ad2ee8be0887b4
+  specs:
+    wentling_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -209,6 +215,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+  wentling_view_tool!
 
 BUNDLED WITH
    1.13.7
