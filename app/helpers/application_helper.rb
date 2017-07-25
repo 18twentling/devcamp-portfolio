@@ -20,7 +20,7 @@ module ApplicationHelper
     WentlingViewTool::Renderer.copyright 'Trinity Wentling', 'All rights reserved'
   end
 
- def nav_items
+  def nav_items
     [
       {
         url: root_path,
